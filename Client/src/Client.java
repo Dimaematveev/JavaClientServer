@@ -24,7 +24,7 @@ public class Client {
                 writer.write(request);
                 writer.newLine();
                 writer.flush();
-                
+
                 String response = reader.readLine();
                 System.out.println("Response = " + response);
             }
